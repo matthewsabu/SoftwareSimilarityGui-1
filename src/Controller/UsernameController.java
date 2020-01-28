@@ -26,13 +26,17 @@ public class UsernameController {
         passCont.passStage(stage);
 
         stage.setScene(scene);
-        stage.setTitle("Software Similarity Program");
+
+        stage.setTitle("Similarity Software Program");
+
         stage.show();
     }
 
     public void passStage(Stage stage){
         this.stage = stage;
     }
+
+
 
 }
 
